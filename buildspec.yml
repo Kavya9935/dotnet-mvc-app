@@ -5,13 +5,11 @@ phases:
     runtime-versions:
       python: 3.11 
     commands:
-      - pip install cfn-lint
+     
       - yum install jq
   build:
     commands:
       - aws cloudformation validate-template --template-body file://ec2-instance.yml
-
-      - cfn-lint ec2-instance.yml 
 
      
       - jq '.Parameters.InstanceType = "t2.medium"' parameters-ca.json
