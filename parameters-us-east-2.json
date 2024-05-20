@@ -1,0 +1,7 @@
+{
+  "Parameters":
+  {
+    "Subnet" : "subnet-0a328ece8bd49764e",
+    "SG" : "sg-088ed5eb4144a79fc"
+  }
+}
