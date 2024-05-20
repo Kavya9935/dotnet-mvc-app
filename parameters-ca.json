@@ -1,6 +1,8 @@
 {
   "Parameters":
   {
-      "InstanceType" : "t2.medium"
+      "InstanceType" : "t2.medium",
+      "Subnet" : "subnet-0ebe946f174bac9ce",
+      "SG" :  "sg-075108655e6401f65"
   }
 }
