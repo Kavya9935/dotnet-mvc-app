@@ -2,9 +2,9 @@ version: 0.2
 
 env:
   variables:
-    file-us-east-2: "parameters-ca.json" 
+    fileUsEast2: "parameters-ca.json"  
   exported-variables:   
-    - file-us-east-2  # Build variables for BuildVariables NameSpace
+    - fileUsEast2  # Build variables for BuildVariables NameSpace
 
 phases:
   install:
@@ -21,7 +21,7 @@ phases:
 
       - echo $account_id #Pipeline variables passed to build stage
 
-      - echo $file-us-east-2
+      - echo $fileUsEast2
      
       - jq '.Parameters.InstanceType = "t2.medium"' parameters-ca.json
       
