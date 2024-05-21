@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    fileUsEast2: "parameters-ca.json"  
+    fileUsEast2: "parameters-us-east-2.json"  
   exported-variables:   
     - fileUsEast2  # Build variables for BuildVariables NameSpace
 
@@ -29,5 +29,5 @@ phases:
 artifacts:
   files:
     - ec2-instance.yml
-    - parameters.json
     - parameters-ca.json
+    - parameters-us-east-2.json
