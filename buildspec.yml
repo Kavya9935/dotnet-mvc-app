@@ -1,5 +1,11 @@
 version: 0.2
 
+env:
+  variables:
+    file-us-east-2: "parameters-ca.json" 
+  exported-variables:   
+    - file-us-east-2  # Build variables for BuildVariables NameSpace
+
 phases:
   install:
     runtime-versions:
@@ -10,7 +16,12 @@ phases:
   build:
     commands:
       - aws cloudformation validate-template --template-body file://ec2-instance.yml
+      
+      - echo $role #Pipeline variables passed to build stage
 
+      - echo $account_id #Pipeline variables passed to build stage
+
+      - echo $file-us-east-2
      
       - jq '.Parameters.InstanceType = "t2.medium"' parameters-ca.json
       
@@ -20,4 +31,3 @@ artifacts:
     - ec2-instance.yml
     - parameters.json
     - parameters-ca.json
-    
