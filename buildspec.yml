@@ -3,8 +3,11 @@ version: 0.2
 env:
   variables:
     fileUsEast2: "parameters-us-east-2.json"  
+    VERSION_TAG: "12ART56"
   exported-variables:   
     - fileUsEast2  # Build variables for BuildVariables NameSpace
+    - VERSION_TAG
+    
 
 phases:
   install:
