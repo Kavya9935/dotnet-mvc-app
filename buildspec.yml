@@ -13,9 +13,7 @@ phases:
   install:
     runtime-versions:
       python: 3.11 
-    commands:
-     
-      - yum install jq
+    
   build:
     commands:
       - aws cloudformation validate-template --template-body file://ec2-instance.yml
