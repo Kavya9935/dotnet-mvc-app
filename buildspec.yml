@@ -22,6 +22,8 @@ phases:
       - echo $account_id #Pipeline variables passed to build stage
 
       - echo $fileUsEast2
+      
+      - echo $COMMIT_ID
      
       - jq '.Parameters.InstanceType = "t2.medium"' parameters-ca.json
       
