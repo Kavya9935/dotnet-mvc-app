@@ -28,6 +28,8 @@ phases:
      
       - jq '.Parameters.InstanceType = "t2.medium"' parameters-ca.json
       
+      - echo "Hello"
+      
 
 artifacts:
   files:
