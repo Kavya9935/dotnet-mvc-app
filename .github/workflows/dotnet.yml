@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  PROJECT_LOCATION: windows_sampleapp
+  PROJECT_LOCATION: windows_sampleapp.zip
   ELASTIC_BEANSTALK_NAME: Win
   ELASTIC_BEANSTALK_ENV_NAME: Win-env
 
