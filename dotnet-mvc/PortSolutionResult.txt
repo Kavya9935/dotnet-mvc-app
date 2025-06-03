@@ -1,0 +1,75 @@
+==========
+References
+==========
+dotnet_mvc.Controllers
+Microsoft.AspNetCore.Mvc
+dotnet_mvc.Models
+System.Diagnostics
+Microsoft.AspNetCore.Http
+System
+System.IO
+System.Collections.Generic
+System.Linq
+System.Net.Http
+System.Threading
+System.Threading.Tasks
+System.Net.Http.Json
+Microsoft.AspNetCore.Builder
+Microsoft.AspNetCore.Hosting
+Microsoft.Extensions.Configuration
+Microsoft.Extensions.DependencyInjection
+Microsoft.Extensions.Hosting
+Microsoft.Extensions.Logging
+project.all
+
+===============
+DownloadedFiles
+===============
+project.all.json
+system.net.http.json
+
+==============
+ProjectResults
+==============
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/dotnet-mvc/dotnet-mvc.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+
+----------------------
+Showing results for: /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/dotnet-mvc/dotnet-mvc.csproj
+----------------------
+---------------------------
+Target Versions:
+---------------------------
+net8.0
+---------------------------
+Source Versions:
+---------------------------
+net48
+---------------------------
+Upgrade packages:
+---------------------------
+---------------------------
+Action packages:
+---------------------------
+
+
+===========
+BuildErrors
+===========
+
+
